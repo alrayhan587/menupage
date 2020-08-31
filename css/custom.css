@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+head{}
+body{font-family: 'Raleway', sans-serif;}
+header{background: black;padding-top: 27px;}
+.container{width: 100%;overflow: hidden;max-width: 100%;}
+nav{text-align: center;}
+nav ul{margin: auto;display: inline-block;}
+nav ul li{display: inline-block;vertical-align: middle;list-style: none;/*! margin: ; */margin-bottom: 5px;}
+nav ul li a{color: white;text-decoration: none;text-transform: uppercase;display: block;padding: 0 20px;font-size: 16px;}
+nav ul li a img{width: 60px;}
+nav ul li a:hover{}
+
+section{}
+.flex{display: flex;}
+.left{max-width: 40%;flex: 0 0 40%;padding: 60px;background: black;}
+.left img{margin-top: 310px;}
+.right{max-width: 48%;flex: 0 0 48%;padding: 21px;background: #3c3b3b;}
+h1{text-transform: capitalize;text-align: center;font-weight: bolder;color: #b8b5b5;padding-bottom: 50px;}
+p{color: #dcdcdc;margin-bottom: 40px;}
+strong{color: #b8b5b5;text-transform: uppercase;font-weight: bolder;padding-bottom: 16px;display: block;letter-spacing: 2px;margin-left: 5px;}
+
+form{/*! letter-spacing: 2px; */}
+form input{/*! width: 36%; */margin-bottom: 19px;padding: 11px 26px;margin-left: 5px;border: none;border-radius: 5px;}
+form select{margin-left: 0px;padding: 8px 30px;border: none;border-radius: 2px;}
+form select option{}
+form b{color: #b8b5b5;padding-left: 3px;display: block;padding-left: 4px;/*! text-align: center; *//*! float: right; */}
+form b input{}
+form b label{}
+form b textarea{}
+input [type="submit"]{}
+
+.menu{/*! text-style: none; *//*! text-align: left; */display: inline-block;/*! text-decoration: none; *//*! list-style: none; */}
+.menu p{font-size: 14px;margin-top: 51px;/*! margin: ; */margin-left: 64px;display: block;}
+.menu ul{/*! margin: auto; *//*! display: inline-block; */text-align: left;}
+.menu ul li{display: inline-block;padding: 23px;}
+.menu ul li a{}
+.menu ul li a img{}
+.menu ul li a:hover{}
